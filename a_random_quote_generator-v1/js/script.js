@@ -24,7 +24,7 @@ let quotes = [
 	{
 	quote: "We are made of star-stuff.",
 	source: "Carl Sagan",
-	citation: "The Cosmic Connectino: An Extraterrestrial Perspective",
+	citation: "The Cosmic Connection: An Extraterrestrial Perspective",
 	year: 1973,
 	srcLang: "English"
 	},
@@ -97,7 +97,7 @@ function printQuote() {
 // Passes a reference to printQuote for execution at three second intervals if 
 // the click event isn't triggered instead
 
-setInterval(printQuote, 3000);
+setInterval(printQuote, 10000);
 
 
 /***
